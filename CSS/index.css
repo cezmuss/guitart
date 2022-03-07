@@ -1,0 +1,88 @@
+/* === PAGE FONT IMPORT (FONT-FAMYLI) === */
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+
+
+
+/* === HTML TAGS STYLIZATION === */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'New Rocker', cursive;
+  -webkit-font-smoothin: antialised;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h3, h4, a, p, button, strong, span {
+  color: rgb(201, 204, 207);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color:	rgba(0, 0, 0, 0.904);
+}
+
+
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content h1 {
+  margin-top: 100px;
+  border-bottom: 2px solid rgb(116, 28, 28);
+}
+
+.content h4 {
+  margin-top: 15px;
+}
+
+.content .conhecer {
+  margin-top: 50px;
+}
+
+.content .entrar {
+  width: 100px;
+  height: 100px;
+  font-size: 28px;
+  border-bottom: 2px solid rgb(116, 28, 28);
+}
+
+
+
+
+@media(max-width: 700px) {
+  .content {
+    height: 100vh;
+  }
+
+  .content img {
+    width: 350px;
+    height: 450px;
+  }
+}
