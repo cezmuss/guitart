@@ -1,0 +1,190 @@
+/* === PAGE FONT IMPORT (FONT-FAMYLI) === */
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+/* === HTML TAGS STYLIZATION === */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'New Rocker', cursive;
+  -webkit-font-smoothin: antialised;
+  text-rendering: optimizeLegibility;
+  color: rgb(201, 204, 207);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color:	rgba(0, 0, 0, 0.863);
+}
+
+
+
+
+/* === register FORM === */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+  border-bottom: 2px solid rgb(116, 28, 28);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .image {
+  max-width: 750px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .div-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.wrapper .div-register i {
+  margin-right: 2px;
+}
+
+.wrapper .div-register .input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.wrapper .div-register .input input {
+  padding: 15px 16px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+.wrapper .div-register .input input:hover {
+  border: solid 2px rgba(85, 20, 20, 0.747);
+}
+
+.input input::placeholder {
+  font-size: 16px;
+  color: rgb(201, 204, 207);
+}
+
+.input p {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* === register BUTTON === */
+.wrap-button {
+  background-color: rgba(85, 20, 20, 0.747);
+  border-radius: 10px;
+  height: 48px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.wrap-button a {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  font-size: 18px;
+  transition: .2s;
+}
+
+.wrap-button a:hover {
+  background-color: rgba(65, 14, 14, 0.534);
+  border: none;
+}
+
+
+
+
+
+/* === LOGO GUITART === */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  height: 0vh;
+}
+
+.footer-content img {
+  margin-top: 50px;
+  height: 100px;
+}
+
+.footer-content h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+/* === RESPONSIVE SIZE LIMITATIONS === */
+@media(max-width: 720px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper .div-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .wrapper .image {
+    background-image: none;
+    display: none;
+  }
+}
