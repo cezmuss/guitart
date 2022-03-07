@@ -1,0 +1,553 @@
+/* === PAGE FONT IMPORT (FONT-FAMYLI) === */
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+
+
+
+/* === HTML TAGS STYLIZATION === */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'New Rocker', cursive;
+  -webkit-font-smoothin: antialised;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h3, h4, a, p, button, strong, span {
+  color: rgb(201, 204, 207);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color:	rgba(0, 0, 0, 0.904);
+}
+
+
+
+
+
+
+/* === HEADER STYLIZATION === */
+.slogan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slogan a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.slogan .voltar:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+.slogan .guitart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan .guitart div {
+  margin: 8px 0;
+}
+
+.slogan .guitart h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan .slogan-guitart a, i {
+  color: rgb(201, 204, 207);
+  text-decoration: none;
+}
+
+.slogan .slogan-guitart a, i:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+
+
+
+
+/* === TOP MENU STYLIZATION === */
+.top-content {
+  background-color: rgba(85, 20, 20, 0.747);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4%;
+}
+
+.top-content a {
+  color: rgb(201, 204, 207);
+}
+
+.top-content a, p:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+.top-content .logo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+
+.top-content .right-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.top-content .right-icons a {
+  margin-right: 12px;
+}
+
+.top-content .right-icons i:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+
+
+
+
+/* === BANNER STYLIZATION === */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+
+  height: 550px;
+  max-height: 550px;
+}
+
+.banner .text {
+  margin-left: 22px;
+}
+
+.banner .text h1 {
+  border-bottom: 1px solid red;
+  margin-bottom: 8px;
+}
+
+.banner .image {
+  height: 100%;
+}
+
+.banner .image img {
+  height: 100%;
+  max-width: 550px;
+}
+
+
+
+
+
+/* === TITLE STYLIZATION === */
+.bottom-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 22px 0 26px 0;
+}
+
+.bottom-title p {
+  font-size: 24px;
+}
+
+
+
+
+
+/* === SECTION STYLIZATION === */
+.exhibition {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+
+.exhibition .mid-content1, .mid-content2 {
+  padding: 16px 32px;
+
+  border-radius: 22px;
+}
+
+.exhibition .image {
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.exhibition .image img {
+  border-radius: 12px;
+}
+
+.exhibition .text h3 {
+  margin-top: 8px;
+}
+
+
+
+
+
+/* === MID 1 MENU STYLIZATION === */
+.mid-content1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: rgb(201, 204, 207);
+  height: 550px;
+  max-height: 550px;
+}
+
+.mid-content1 .text {
+  margin: 0 auto;
+}
+
+.mid-content1 .image img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+/* === MID 2 MENU STYLIZATION === */
+.mid-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 550px;
+  max-height: 550px;
+}
+
+.mid-content2 .text {
+  margin: 0 auto;
+}
+
+.mid-content2 .image img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+/* === FOOTER STYLIZATION === */
+footer {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+footer strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(201, 204, 207);
+}
+
+footer .top-contact h1 {
+  color: rgb(201, 204, 207);
+}
+
+footer .top-contact i {
+  color: rgb(201, 204, 207);
+  font-size: 40px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+footer .contact-info strong i {
+  margin-right: 8px;
+}
+
+.top-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+
+
+
+
+/* === RESPONSIVE SIZE LIMITATIONS === */
+@media(max-width: 1908px) {
+  /* === SECTION STYLIZATION === */
+  .exhibition {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mid-content2 {
+    background-color: #000;
+    margin: 5px 32px;
+  }
+}
+
+
+@media(max-width: 1000px) {
+  /* === HEADER STYLIZATION === */
+  .slogan {
+    width: 100vw;
+  }
+
+  .slogan i {
+    font-size: 17px;
+  }
+
+  .slogan a {
+    font-size: 16px;
+  }
+
+  .slogan .guitart h1 {
+    font-size: 22px;
+  }
+
+  .slogan .guitart h3 {
+    display: none;
+  }
+
+
+
+  /* === TOP MENU STYLIZATION === */
+  .top-content {
+    width: 100vw;
+    height: 4vh;
+  }
+
+  .top-content .logo {
+    background-image: none;
+    display: none;
+  }
+
+
+
+  /* === BANNER STYLIZATION === */
+  .banner .text {
+    width: 100%;
+    margin-left: 16px;
+  }
+
+  .banner .text h1 {
+    font-size: 24px;
+  }
+
+  .banner .text h3 {
+    font-size: 14px;
+  }
+
+  .banner img {
+    width: 450px;
+    height: 500px;
+  }
+
+
+
+  /* === SECTION STYLIZATION === */
+  .exhibition {
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    width: 70%;
+    max-width: 80vh;
+  }
+
+  .exhibition .mid-content1, .mid-content2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 12px 8px;
+
+    border-radius: 22px;
+  }
+
+  .exhibition .text h1 {
+    width: 160px;
+    margin-top: 22px;
+    border-bottom: 1px solid red;
+  }
+
+  .exhibition .text h3 {
+    font-size: 16px;
+  }
+
+  .exhibition .image {
+    order: -1;
+    height: 80%;
+  }
+
+
+
+  /* === FOOTER STYLIZATION === */
+  footer {
+    max-width: 500px;
+    width: 100%;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-contact {
+    margin: 0 auto;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+
+    margin-bottom: 18px;
+  }
+
+  .top-contact h1 {
+    margin: 0 auto;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .top-contact i {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .contact-info {
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info strong {
+    margin: 5px 0;
+  }
+}
+
+
+@media(max-width: 830px) {
+  /* === MID-CONTENT STYLIZATION === */
+  .banner {
+    height: 350px;
+  }
+
+  .banner .text {
+    width: 30vw;
+    margin-right: 16px;
+  }
+
+  .banner .text h1, h3 {
+    margin-left: 16px;
+  }
+
+  .banner .image {
+    width: 70vw;
+  }
+
+  .banner .image img {
+    width: 100%;
+  }
+}
+
+
+@media(max-width: 680px) {
+  .banner {
+    height: 375px;
+  }
+
+  .exhibition {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+@media(max-width: 580px) {
+  /* === HEADER STYLIZATION === */
+  .slogan .guitart h3 {
+    font-size: 10px;
+  }
+
+  .slogan .slogan-guitart i, a {
+    font-size: 12px;
+    margin: 2px;
+  }
+
+
+  /* === TOP MENU STYLIZATION === */
+  .top-content  p, i {
+    font-size: 12px;
+  }
+
+  .top-content .right-icons a {
+    margin-right: 8px;
+  }
+}
+
+
+
+@media(max-width: 500px) {
+  .banner {
+    height: 350px;
+  }
+}
