@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <script
+      src="https://kit.fontawesome.com/bbde3d316c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../JavaScript/jquery-3.5.1.min.js"></script>
+    <script src="../JavaScript/functions.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN57mkO88IXlQikM9Gp6zA2txiHgxMtJY&callback=initMap" async defer ></script>
+    <link rel="icon" href="../assets/images/logo.jpg" type="image/x-icon" />
+    <title>GuitART</title>
+  </head>
+  <body>
+    <header class="slogan">
+      <div></div>
+      <div class="guitart">
+        <div>
+          <h1>GuitART</h1>
+          <h3>MAIS QUE UM INSTRUMENTO, UM ESTILO DE VIDA</h3>
+        </div>
+      </div>
+      <div class="slogan-guitart">
+        <a href="../HTML/login.html">
+          <i class="fas fa-sign-out-alt"></i>
+          SAIR
+        </a>
+      </div>
+    </header>
+
+    <div class="top-content">
+      <div class="logo">
+        <img src="../assets/images/logo.jpg" alt="" />
+      </div>
+
+      <a href="../HTML/models.html">
+        <p>MODELOS</p>
+      </a>
+      <a href="../HTML/accessories.html">
+        <p>ACESSÓRIOS</p>
+      </a>
+      <a href="../HTML/curiosities.html">
+        <p>CURIOSIDADES</p>
+      </a>
+
+      <div class="right-icons">
+        <a href="../HTML/cart.html">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a href="../HTML/login.html">
+          <i class="far fa-user"></i>
+        </a>
+        <a href="">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="mid-content">
+      <div class="background">
+        <img src="../assets/images/eddie-van-halen.jpg" alt="Eddie Van Halen" />
+      </div>
+      <div class="text">
+        <p>JUNTE-SE ÀS LENDAS DO ROCK</p>
+        <div class="wrap-button">
+          <a href="../HTML/register.html">CADASTRAR-SE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-content">
+      <div class="bottom-title">
+        <p>PRODUTOS MAIS VENDIDOS</p>
+      </div>
+
+      <div class="bottom-products">
+        <div class="content">
+          <div class="product1">
+            <img src="../assets/images/LP3.png"/>
+            <p>
+              <b>MODELO:</b>
+              &nbsp
+              LES PAUL
+            </p>
+            <p>
+              <b>ANO:</b>
+              &nbsp
+              2020
+            </p>
+            <p>
+              <b>MARCA:</b>
+              &nbsp
+              GIBSON
+            </p>
+            <p>
+              <b>VALOR:</b>
+              &nbsp
+              R$7.000,00
+            </p>
+            <button>
+              Saiba mais
+              <i class="far fa-arrow-alt-circle-right"></i>
+            </button>
+          </div>
+          <div class="product1">
+            <img src="../assets/images/SC1.png" />
+            <p>
+              <b>MODELO:</b>
+              &nbsp
+              STRATOCASTER
+            </p>
+            <p>
+              <b>ANO:</b>
+              &nbsp
+              2015
+            </p>
+            <p>
+              <b>MARCA:</b>
+              &nbsp
+              YAMAHA
+            </p>
+            <p>
+              <b>VALOR:</b>
+              &nbsp
+              R$5.400,00
+            </p>
+            <button>
+              Saiba mais
+              <i class="far fa-arrow-alt-circle-right"></i>
+            </button>
+          </div>
+          <div class="product1">
+            <img src="../assets/images/TC1.png" />
+            <p>
+              <b>MODELO:</b>
+              &nbsp
+              TELECASTER
+            </p>
+            <p>
+              <b>ANO:</b>
+              &nbsp
+              2017
+            </p>
+            <p>
+              <b>MARCA:</b>
+              &nbsp
+              FENDER
+            </p>
+            <p>
+              <b>VALOR:</b>
+              &nbsp
+              R$5.850,00
+            </p>
+            <button>
+              Saiba mais
+              <i class="far fa-arrow-alt-circle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-options">
+        <div class="wrap-button2">
+          <a href="../HTML/models.html">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-content">
+      <div class="bottom-title">
+        <p>DEMONSTRAÇÃO DOS PRODUTOS</p>
+      </div>
+      <div class="video">
+        <video width="500" height="300" controls>
+          <source src="../assets/videos/nitaStrauss.mp4" type="video/webm" />
+        </video>
+      </div>
+    </div>
+
+    <div class="review-content">
+      <div class="review-title">
+        <p>REVIEWS DE CLIENTES</p>
+      </div>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+
+      <div class="duvidas">
+        <span>Faça aqui sua avaliação!</span>
+
+      <div class="textarea">
+        <textarea name="duvida" id=""></textarea>
+        <button>Enviar</button>
+      </div>
+      </div>
+
+      <div class="reviews">
+        <div class="review-info">
+          <div class="paragraph">
+            <div class="avatar">
+              <img src="../assets/images/gabriel.jpg" alt="Avatar">
+              <h4>Nome</h4>
+            </div>
+            <strong>DD/MM/YYYY</strong>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Exercitationem rerum sapiente eligendi aperiam id. Explicabo
+              veritatis impedit ipsum dolorem inventore ut pariatur
+              reprehenderit, exercitationem enim totam nostrum nobis a quas?
+            </p>
+          </div>
+          <div class="paragraph">
+            <div class="avatar">
+              <img src="../assets/images/gabriel.jpg" alt="Avatar">
+              <h4>Nome</h4>
+            </div>
+            <strong>DD/MM/YYYY</strong>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Exercitationem rerum sapiente eligendi aperiam id. Explicabo
+              veritatis impedit ipsum dolorem inventore ut pariatur
+              reprehenderit, exercitationem enim totam nostrum nobis a quas?
+            </p>
+          </div>
+          <div class="paragraph">
+            <div class="avatar">
+              <img src="../assets/images/gabriel.jpg" alt="Avatar">
+              <h4>Nome</h4>
+            </div>
+            <strong>DD/MM/YYYY</strong>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Exercitationem rerum sapiente eligendi aperiam id. Explicabo
+              veritatis impedit ipsum dolorem inventore ut pariatur
+              reprehenderit, exercitationem enim totam nostrum nobis a quas?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-wrap">
+      <div id="map"></div>
+    </div>
+
+    <footer>
+      <div class="top-contact">
+        <h1>Entre em contato</h1>
+        <div>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+      <div class="contact-info">
+        <strong>
+          <i class="fas fa-phone-alt"></i>
+          TELEFONE: (99) 99999-9999
+        </strong>
+        <strong>
+          <i class="fas fa-envelope"></i>
+          E-MAIL: desenvolvedores@email.com.br
+        </strong>
+        <strong>
+          <i class="fas fa-map-marker-alt"></i>
+          ENDEREÇO: Rua X, Bairro Y, N° Z
+        </strong>
+      </div>
+      <div class="rigths">
+        <strong>All rights reserved © | 2020 | Cézar Mussoi | Kenzo De Albuquerque | Vitor José</strong>
+      </div>
+    </footer>
+  </body>
+</html>
