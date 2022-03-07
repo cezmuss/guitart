@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/cart.css" />
+  <script
+    src="https://kit.fontawesome.com/bbde3d316c.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../JavaScript/jquery-3.5.1.min.js"></script>
+  <link rel="icon" href="../assets/images/logo.jpg" type = "image/x-icon">
+  <title>Carrinho</title>
+</head>
+<body>
+  <header class="slogan">
+    <div>
+      <a class="voltar" href="../HTML/main.html">
+        <i class="fas fa-long-arrow-alt-left"></i>
+        VOLTAR
+      </a>
+    </div>
+    <div class="guitart">
+      <div>
+        <h1>GuitART</h1>
+        <h3>MAIS QUE UM INSTRUMENTO, UM ESTILO DE VIDA</h3>
+      </div>
+    </div>
+    <div class="slogan-guitart">
+      <a href="../HTML/login.html">
+        <i class="fas fa-sign-out-alt"></i>
+        SAIR
+      </a>
+    </div>
+  </header>
+
+  <div class="top-content">
+    <div class="logo">
+      <img src="../assets/images/logo.jpg" alt="" />
+    </div>
+
+    <a href="../HTML/models.html">
+      <p>MODELOS</p>
+    </a>
+    <a href="../HTML/accessories.html">
+      <p>ACESSÓRIOS</p>
+    </a>
+    <a href="../HTML/curiosities.html">
+      <p>CURIOSIDADES</p>
+    </a>
+
+    <div class="right-icons">
+      <a href="../HTML/cart.html" class="icon-cart">
+        <i class="fas fa-shopping-cart"><span>0</span></i>
+      </a>
+      <a href="../HTML/login.html">
+        <i class="far fa-user"></i>
+      </a>
+      <a href="">
+        <i class="fas fa-search"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="bottom-title">
+    <p>CARRINHO DE COMPRAS</p>
+  </div>
+
+  <section class="container-cart" id="container-cart">
+
+  </section>
+
+  <section class="total">
+    <span class="total-title">TOTAL A PAGAR:</span>
+    <p class="total-price">
+    </p>
+  </section>
+
+  <section class="payment-methods">
+    <div>
+      <p>CARTÃO</p>
+      <div class="payment-card">
+        <input type="radio" id="male" name="gender" value="male">
+        <i class="fab fa-cc-visa"></i>
+        <label for="male">VISA</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <i class="fab fa-cc-mastercard"></i>
+        <label for="male">MASTER CARD</label><br>
+      </div>
+      <select>
+        <option value="0">Métodos de pagamento:</option>
+        <option value="1">1x R$xxxx,xx</option>
+        <option value="2">2x R$xxxx,xx</option>
+        <option value="3">4x R$xxxx,xx</option>
+        <option value="4">6x R$xxxx,xx</option>
+        <option value="5">8x R$xxxx,xx</option>
+        <option value="6">10x R$xxxx,xx</option>
+        <option value="7">12x R$xxxx,xx</option>
+      </select>
+      <br>
+      <br>
+      <p>À VISTA</p>
+      <div class="payment-cash">
+        <input type="radio" id="male" name="gender" value="male">
+        <i class="fas fa-barcode"></i>
+        <label for="male">BOLETO</label><br>
+      </div>
+    </div>
+    <button type="submit" id="pay">COMPRAR</button>
+  </section>
+
+  <div class="map-wrap">
+    <div id="map"></div>
+  </div>
+
+  <footer>
+    <div class="top-contact">
+      <h1>Entre em contato</h1>
+      <div>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+    <div class="contact-info">
+      <strong>
+        <i class="fas fa-phone-alt"></i>
+        TELEFONE: (99) 99999-9999
+      </strong>
+      <strong>
+        <i class="fas fa-envelope"></i>
+        E-MAIL: desenvolvedores@email.com.br
+      </strong>
+      <strong>
+        <i class="fas fa-map-marker-alt"></i>
+        ENDEREÇO: Rua X, Bairro Y, N° Z
+      </strong>
+    </div>
+  </footer>
+
+  <script src="../JavaScript/functions.js" async></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN57mkO88IXlQikM9Gp6zA2txiHgxMtJY&callback=initMap" async defer ></script>
+
+</body>
+</html>

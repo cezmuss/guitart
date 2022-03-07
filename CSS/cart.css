@@ -1,0 +1,611 @@
+/* === PAGE FONT IMPORT (FONT-FAMYLI) === */
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+
+
+
+/* === HTML TAGS STYLIZATION === */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'New Rocker', cursive;
+  -webkit-font-smoothin: antialised;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h3, h4, a, p, button, strong, span {
+  color: rgb(201, 204, 207);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color:	rgba(0, 0, 0, 0.904);
+}
+
+
+
+
+
+
+/* === HEADER STYLIZATION === */
+.slogan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slogan a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.slogan .voltar:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+.slogan .guitart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan .guitart div {
+  margin: 8px 0;
+}
+
+.slogan .guitart h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan .slogan-guitart a, i {
+  color: rgb(201, 204, 207);
+  text-decoration: none;
+}
+
+.slogan .slogan-guitart a, i:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+
+
+
+
+/* === TOP MENU STYLIZATION === */
+.top-content {
+  background-color: rgba(85, 20, 20, 0.747);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4%;
+}
+
+.top-content a {
+  color: rgb(201, 204, 207);
+}
+
+.top-content a, p:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+.top-content .logo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+
+.top-content .right-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.top-content .right-icons a {
+  margin-right: 12px;
+}
+
+.top-content .right-icons i:hover {
+  transition: .2s;
+  color: #fff;
+}
+
+
+
+
+
+/* === TITLE STYLIZATION === */
+.bottom-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 22px 0 26px 0;
+}
+
+.bottom-title p {
+  font-size: 24px;
+  margin: 25px 0;
+  border-bottom: 2px solid red;
+}
+
+
+
+
+/* === CART STYLIZATION === */
+.container-cart {
+  display: grid;
+  grid-template: 1fr;
+  align-items: center;
+
+  margin: 0 auto;
+
+  width: 100vw;
+  max-width: 1000px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+
+  margin: 0 auto;
+  margin-top: 16px;
+
+  padding: 26px 32px;
+
+  background-color: #000;
+  border-radius: 26px;
+}
+
+.cart .product-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cart .product-name .item-img {
+  width: 125px;
+  height: 300px;
+  margin-right: 25px;
+}
+
+.cart .product-name p {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+}
+
+.cart .product-name .quantidade {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart .product-name .quantidade .cart-items {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart .product-name .quantidade .cart-items button {
+  background-color: #000;
+  border: none;
+}
+
+.cart .product-name .quantidade .cart-items input {
+  margin: 0 5px;
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+  border: none;
+}
+
+.cart .price p {
+  margin-left: 25px;
+}
+
+
+
+
+
+/* === TOTAL STYLIZATION === */
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(85, 20, 20, 0.747);
+
+  border-radius: 0 16px;
+  padding: 28px;
+
+  margin: 0 auto;
+
+  margin-top: 55px;
+  margin-bottom: 55px;
+
+  width: 100vw;
+  max-width: 500px;
+}
+
+.total p {
+  margin: 0 32px;
+}
+
+
+
+
+
+/* === PAYMENT STYLIZATION === */
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 0 auto;
+  height: 250px;
+
+  width: 100%;
+  max-width: 250px;
+  background-color: #000;
+  border-radius: 16px;
+}
+
+.payment-methods p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.payment-methods select {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.payment-methods input, i, label {
+  margin: 0 2px;
+  color: #fff;
+}
+
+.payment-methods button {
+  margin: 8px 0;
+  background-color: rgba(85, 20, 20, 0.747);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 70%;
+}
+
+
+
+
+
+/* === MAP STYLIZATION === */
+.map-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#map {
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+
+  margin: 80px 0;
+  border: 8px solid rgba(85, 20, 20, 0.747);
+  border-radius: 16px;
+}
+
+
+
+
+
+/* === FOOTER STYLIZATION === */
+footer {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(201, 204, 207);
+}
+
+footer .top-contact h1 {
+  color: rgb(201, 204, 207);
+}
+
+footer .top-contact i {
+  color: rgb(201, 204, 207);
+  font-size: 40px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+footer .contact-info strong i {
+  margin-right: 8px;
+}
+
+.top-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+
+
+
+
+/* === RESPONSIVE SIZE LIMITATIONS === */
+@media(max-width: 1220px) {
+  /* === HEADER STYLIZATION === */
+  .slogan {
+    width: 100vw;
+  }
+
+  .slogan i {
+    font-size: 17px;
+  }
+
+  .slogan a {
+    font-size: 16px;
+  }
+
+  .slogan .guitart h1 {
+    font-size: 22px;
+  }
+
+
+
+  /* === TOP MENU STYLIZATION === */
+  .top-content {
+    width: 100vw;
+    height: 4vh;
+  }
+
+  .top-content .logo {
+    background-image: none;
+    display: none;
+  }
+
+
+
+  /* === CONTENT STYLIZATION === */
+  .container-cart {
+    max-width: 800px;
+  }
+
+  .cart {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .cart .product-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  .cart .product-name img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cart .product-name p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .cart .product-name .quantidade {
+    margin: 0 auto;
+    margin: 5px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart .description {
+    margin: 0 32px;
+  }
+
+  .cart .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 35px;
+  }
+
+  .total {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .total p {
+    margin: 0 auto;
+
+    font-size: 16px;
+  }
+
+
+
+  /* === FOOTER STYLIZATION === */
+  footer {
+    max-width: 500px;
+    width: 100%;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-contact {
+    margin: 0 auto;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+
+    margin-bottom: 18px;
+  }
+
+  .top-contact h1 {
+    margin: 0 auto;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .top-contact i {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .contact-info {
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info strong {
+    margin: 5px 0;
+  }
+}
+
+
+@media(max-width: 1000px) {
+  .slogan .guitart h3 {
+    display: none;
+  }
+}
+
+
+@media(max-width: 893px) {
+  .container-cart {
+    max-width: 700px;
+  }
+
+  .cart .description {
+    margin: 0 28px;
+  }
+}
+
+@media(max-width: 770px) {
+  .container-cart {
+    max-width: 500px;
+  }
+
+  .cart .description {
+    margin: 0 22px;
+  }
+}
+
+@media(max-width: 680px) {
+  .container-cart {
+    max-width: 400px;
+  }
+
+  .cart .product-name img {
+    width: 70%;
+  }
+
+  .cart .description {
+    margin: 0 16px;
+  }
+
+  .map-wrap #map {
+    max-width: 400px;
+  }
+}
+
+
+@media(max-width: 580px) {
+  /* === HEADER STYLIZATION === */
+  .slogan .guitart h3 {
+    font-size: 10px;
+  }
+
+  .slogan .slogan-guitart i, a {
+    font-size: 12px;
+    margin: 2px;
+  }
+
+
+  /* === TOP MENU STYLIZATION === */
+  .top-content  p, i {
+    font-size: 12px;
+  }
+
+  .top-content .right-icons a {
+    margin-right: 8px;
+  }
+}
